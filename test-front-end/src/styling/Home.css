@@ -1,7 +1,45 @@
-.HomeApp{
+.HomePage{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
-.exSkills{
+
+.myBox{
   display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+  /* align-content: flex-start; */
+  width: 100vw;
+  height: 70vh;
+}
+.cardProgrammer{
+  background-color:cadetblue;
+  padding-bottom: 10;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+}
+.forText{
+  color: aliceblue;
+}
+
+.addBtn{
+  background-color: black;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 30px;
+
+}
+.addBtnS{
+  color: white;
+  font-size: larger;
+  font-weight: bold;
 }
