@@ -8,7 +8,7 @@
         "javascript": "advanced",
         "python": "basic",
         "golang": "expert",
-        "php": "expert"     
+        "php": "expert"
       }
     },
     {
@@ -33,7 +33,7 @@
         "php": "expert"
       }
     },
-      {
+    {
       "id": 4,
       "first_name": "El",
       "last_name": "Professor",
@@ -43,6 +43,14 @@
         "golang": "intermediate",
         "php": "intermediate"
       }
+    },
+    {
+      "first_name": "Bimo",
+      "last_name": "Dimas",
+      "skills": {
+        "javascript": "expert"
+      },
+      "id": 5
     }
   ]
 }

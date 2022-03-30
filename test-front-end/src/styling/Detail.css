@@ -1,0 +1,45 @@
+.detailPage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5vh;
+}
+.programmerCard{
+  background-color: rgb(223, 168, 86);
+  height: 90vh;
+  width: 30vw;
+  border-radius: 15px;
+  padding: 10px;
+}
+.pic {
+  margin-top: 10px;
+  position: relative;
+}
+
+.cPic {
+  background-color: rgb(255, 211, 146);
+  width: 70px;
+  height: 70px;
+  z-index: 10;
+  position: absolute;
+  top: 20px;
+  right: 120px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cText {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.forText{
+  color: white;
+}
+
+.forLorem {
+  text-align: justify;
+}
