@@ -1,0 +1,7 @@
+.HomeApp{
+  display: flex;
+  flex-direction: column;
+}
+.exSkills{
+  display: flex;
+}
